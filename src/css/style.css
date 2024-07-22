@@ -75,10 +75,10 @@ ol li{
 }
 ul li{
     list-style-type: disc;
+    margin-left: 23px;
 }
 ul li::marker{
     color: #333333;
-    margin-left: 23px;
 }
 p{
     color: #333333;
