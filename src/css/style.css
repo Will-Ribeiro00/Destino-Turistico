@@ -49,18 +49,72 @@ h1{
 }
 h2{
     font-size: 32px;
+    padding-bottom: 10px;
 }
 h3{
     font-size: 28px;
+    padding-top: 15px;
 }
-p{
-    color: #333333;
-}
-
 #Atracoes{
     padding-top: 64px;
 }
 
 h2 + p {
     padding-bottom: 64px;
+}
+
+ol > div {
+    padding-bottom: 48px;
+}
+
+ol li{
+    font-size: 28px;
+    font-weight: bold;
+
+    margin-left: 40px;
+}
+ul li{
+    list-style-type: disc;
+    font-size: 16px;
+
+    margin-left: 23px;
+}
+p{
+    color: #333333;
+    font-size: 16px;
+    font-weight: normal;
+}
+.bp{
+    font-weight: bold;
+}
+
+.Historia, .Casais, .Familia, .Orcamento{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Historia{
+    color: #0C51A7;
+}
+.Casais{
+    color: #591B98;
+}
+.Familia{
+    color: #E5245E;
+}
+.Orcamento{
+    color: #E95E10;
+}
+
+#finalizacao{
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 48px;
+}
+footer img{
+    vertical-align: middle;
 }
